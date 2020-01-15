@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    /*background-color: red;*/
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #nav1{
+    width: 440px;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img{
+    height: 42px;
+    width: 125px;
+}
+nav #nav1 a{
+    text-decoration:none;
+    color: black;
+    font-size: 13px;
+}
+nav #nav1 a:hover{
+    text-decoration: underline;
+}
+nav #nav2{
+    width: 360px;
+    height: 100%;
+   /* background-color: yellow;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #nav2 a{
+    text-decoration:none;
+    color: black;
+    font-size: 13px;
+}
+nav #nav2 a:hover{
+    text-decoration: underline;
+}
+
+
+#main{
+    min-height: 500px;
+    width: 100%;
+    background-color: white;
+}
+#main #banner{
+    height: 515px;
+    width: 1370px;
+    background-image:url(microsoft\ banner.jpg);
+    margin: 0 auto;
+    background-size:cover;
+    cursor: pointer;
+
+}
+#main #banner #box{
+    width: 800px;
+    height: 515px;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.76),rgba(27, 25, 25, 0.582));
+    padding: 135px 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#main #banner #box h2{
+    font-size: 46px;
+    font-weight: 600;
+    color:black;
+    margin-left: 85px;
+}
+
+#main #banner #box p{
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    margin-left: 87px;
+    padding-bottom: 10px;
+}
+
+#main #banner #box button{
+    width:140px;
+    height: 40pX;
+    font-size: 15px;
+    background-color:black;
+    color: white;
+    border: none;
+    padding:6px 6px;
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+#main #banner2{
+    width: 1370px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.boximg{
+    display: flex;
+    justify-content: space-between;
+}
+.boximg img{
+    width: 325px;
+    height:180px;
+}
+#main #banner3{
+    width: 1370px;
+    height: 140px;
+    margin: 0 auto;
+}
+.boximg2{
+    display: flex;
+    justify-content: space-between;
+}
+#main #boxinone{
+    width: 325px;
+    height:100px;
+    margin: 40px 0;
+}
+#main .boximg2 h3{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#main .boximg2 p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+    margin:10px 0;
+}
+
+#main .boximg2 button{
+    border: none;
+    min-width: 80px;
+    height: 30px;
+    font-size: 15px;
+    color:#005DA6;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+#main button:hover{
+    text-decoration: underline;
+}
+
+#main #banner3 #boxintwo{
+    width: 325px;
+    height:100px;
+    margin: 40px 0;
+}
+
+#main #banner3 #boxintre{
+    width: 325px;
+    height:100px;
+    margin: 40px 0;
+}
+
+#main #banner3 #boxinfr{
+    width: 325px;
+    height:100px;
+    margin: 40px 0;
+}
+#main #banner4{
+    height: 515px;
+    width: 1370px;
+    background-image:url(Crysis-3.jpg);
+    margin: 0 auto;
+    background-size:cover;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+#main #banner4 #boxx{
+    width:1370px;
+    height: 515px;
+    background-image: linear-gradient(to bottom,rgba(83, 81, 81, 0.034),rgba(235, 231, 231, 0.575));
+}
+#main #banner4 #boxx h2{
+    color: black;
+    padding-top: 300px;
+    font-size: 46px;
+    line-height:56px ;
+    font-weight: 600;
+}
+
+#main #banner4 #boxx p{
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+    padding: 15px 0;
+}
+#main #banner4 #boxx button{
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+#main #banner5{
+    width: 1370px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.boximg3{
+    display: flex;
+    justify-content:space-between;
+}
+.boximg3 img{
+    width: 325px;
+    height:180px;
+}
+
+
+#main #banner6{
+    width: 1370px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.boxtext1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+#boxinone1{
+    width: 325px;
+    height:180px;
+}
+
+#boxontwo2{
+    width: 325px;
+    height:180px;
+}
+#boxintr3{
+    width: 325px;
+    height:180px;
+}
+#boxinfr4{
+    width: 325px;
+    height:180px;
+}
+
+#main #banner6 button{
+    width: 130px;
+    height: 35px;
+    color: #005DA6;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 0px;
+    text-align: left;
+}
+#main #banner6 p{
+    margin: 6px 0;
+}
+
+#main #banner6 h3{
+    font-size: 20px;
+    font-weight: 500;   
+}
+#follow{
+    width: 1370px;
+    margin: 0 auto;
+    min-height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 40px;
+    color:#616161;
+}
+#follow img{
+    width: 26px;
+    height: 25px;
+    margin: 0 6px;
+}
+
+
+
+#main #banner7{
+    widows: 100%;
+    height: 350px;
+    background-color: #F2F2F2;
+}
+
+#main #textcontainer{
+    width: 1370px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.txbox{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#textbox1{
+    width: 140px;
+    min-height: 145px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+#textbox2{
+    width: 140px;
+    min-height: 145px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+#textbox3{
+    width: 140px;
+    min-height: 147px;
+    display: flex;
+    flex-direction:column;
+}
+
+#textbox4{
+    width: 140px;
+    min-height: 145px;
+    display: flex;
+    flex-direction:column;
+}
+
+#textbox5{
+    width: 140px;
+    min-height: 145px;
+    display: flex;
+    flex-direction:column;
+}
+
+#textbox6{
+    width: 140px;
+    min-height: 145px;
+    display: flex;
+    flex-direction:column;
+}
+
+#main #textcontainer a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #616161;
+    margin-top: 20px;
+}
+#main #textcontainer h4{
+    color: #616161;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+#main #textcontainer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
